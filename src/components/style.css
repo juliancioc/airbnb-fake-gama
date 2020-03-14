@@ -9,9 +9,15 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
-.logo {
+.header {
     display: flex;
     justify-content: center;
+    background-color: grey;
+    color: white;
+}
+.name-brand {
+    display: flex;
+    flex: 1 1 10rem;
 }
 .logo img {
     width: 150px;
@@ -21,7 +27,7 @@ body {
     font-size: 2vh;
 }
 .type {
-    color: red;
+    color: #e94964;
     font-weight: 600;
 }
 .card {

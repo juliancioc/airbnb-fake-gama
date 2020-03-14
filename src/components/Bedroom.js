@@ -33,9 +33,8 @@ function Bedroom() {
     if (data) {
         return (
             <>
-                <div className="logo">
-                    <img src={require('./logo.jpg')} alt="Airbng"  />
-                    <h1>Fake Airbnb</h1>
+                <div className="header">
+                    <h1>Airbnb Fake</h1>
                 </div>
                 <div className="container">
                     {data.map(bedrooms => (
