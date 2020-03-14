@@ -22,7 +22,7 @@ function Bedroom() {
         }
     })
 
-    if (isPending) return (
+    if (isPending == false) return (
         <div className="loading">
             <Loading loading={true} />
         </div>
