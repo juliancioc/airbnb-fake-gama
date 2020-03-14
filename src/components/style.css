@@ -57,3 +57,17 @@ body {
     height: 200px;
     width: 100%;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+}
+
+.footer a {
+    color: blue;
+    text-decoration: none;
+}
+
